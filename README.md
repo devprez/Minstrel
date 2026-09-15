@@ -1,62 +1,86 @@
-# Wanderer
+# Minstrel
 
-A Unity + FMOD first-person exploration prototype built to demonstrate adaptive music, interactive audio, and state-driven game systems.
+A Unity + FMOD first-person exploration game built around adaptive music, interactive audio, and state-driven progression.
 
-The player explores a sparse environment, discovers musical relics, and changes the soundtrack through play. Each recovered element adds to the arrangement, turning movement through the level into a musical progression.
+Minstrel began as **Wanderer**, a small adaptive-audio prototype inspired by a song concept. As the project grew, Wanderer became the first level and musical foundation for a broader game centered on exploration, discovery, and a soundtrack that changes with the player.
 
-## Current Features
+## Level One: Wanderer
 
-- First-person exploration in Unity
-- FMOD integration
-- Adaptive music built from layered stems
-- Game-state-driven audio changes
-- Collectible relic system
-- Music progression tied to player exploration
-- Separate ambience event for environmental sound
-- Parameter-based control of musical state
+The first level, **Wanderer**, introduces the core idea:
 
-## Audio System
+the player explores an environment, discovers musical relics, and gradually rebuilds the soundtrack through play.
 
-The main music event uses layered stems for:
+Each recovered relic adds a new musical layer to the arrangement, making progression audible as well as visible.
+
+Current musical stems include:
 
 - Guitars
 - Keys
 - Bass
 - Drums
 
-As the player discovers relics, the musical arrangement changes dynamically. The goal is to make progression audible as well as visible, with the soundtrack responding directly to what the player has done.
+## Current Features
 
-FMOD parameters are used to control transitions between areas and journey states while keeping musical changes seamless.
+- First-person exploration in Unity
+- FMOD integration
+- Adaptive music built from layered stems
+- Collectible musical relics
+- Game-state-driven soundtrack changes
+- Environmental ambience
+- Parameter-based audio control
+- Return-journey state changes
+- Gameplay systems written in C#
+
+## Audio System
+
+FMOD is used to manage the interactive soundtrack and environmental audio.
+
+The main music event responds to gameplay by enabling and transitioning between musical layers as the player explores the level and collects relics.
+
+Parameters such as area and journey state allow the soundtrack to react to where the player is and what stage of the experience they have reached.
+
+The goal is to make the music feel like part of the game system rather than background playback.
 
 ## Tech
 
 - **Unity**
 - **C#**
 - **FMOD Studio**
-- Adaptive / interactive music systems
-- Event-driven game logic
+- Adaptive music systems
+- Interactive sound design
+- Event-driven gameplay logic
 - Git / GitHub
 
 ## In Development
 
-- Expanded `JourneyState` behavior for the return trip
-- Additional environmental audio and footsteps
-- Improved visual presentation
-- New exploration area / level work
-- Further adaptive music transitions
-- More polished playable portfolio build
+- Expanded `JourneyState` behavior
+- Additional footsteps and environmental sound
+- More polished visual presentation
+- New areas and levels beyond Wanderer
+- Improved adaptive transitions
+- Additional sound-design work
+- Portfolio-ready playable build
+
+## Project Direction
+
+Minstrel is evolving from a focused adaptive-audio demo into a broader interactive music project.
+
+Future levels can explore different musical structures, environments, and relationships between player behavior and sound while sharing the same underlying gameplay and audio architecture.
 
 ## Portfolio Goal
 
-Wanderer is a game-audio and technical-design portfolio project demonstrating:
+Minstrel is designed to demonstrate:
 
 - Unity / C# development
 - FMOD implementation
 - adaptive music design
-- state-driven audio systems
-- interactive sound design
-- integration between gameplay and music
+- interactive audio systems
+- gameplay-driven sound
+- state-based system architecture
+- integration between music, sound, and player experience
 
 ## Status
 
-Active development. The core adaptive-audio system is working, with additional gameplay, visual, and sound-design polish planned.
+Active development.
+
+The core adaptive-audio system is working, with additional gameplay, visual, and sound-design polish underway.
