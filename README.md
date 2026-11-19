@@ -84,3 +84,7 @@ Minstrel is designed to demonstrate:
 Active development.
 
 The core adaptive-audio system is working, with additional gameplay, visual, and sound-design polish underway.
+
+## License and Copyright
+
+Copyright © 2026 Mycho James. All rights reserved. See [LICENSE](LICENSE) for the terms covering Minstrel's original materials. Third-party components, including Unity and FMOD, remain subject to their respective licenses. Rights granted under separate written agreements remain in effect.
